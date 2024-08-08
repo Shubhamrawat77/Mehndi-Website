@@ -1,0 +1,125 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #340402;
+}
+
+header {
+    background-color: #6a0200;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    width: 100%;
+    height: 65px;
+    background-color: #6a0200;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imageCointainer {
+
+    width: 55px;
+    height: 40px;
+    margin-left: 50px;
+}
+
+.imageCointainer img {
+    width: 100%;
+    height: 100%;
+}
+
+.List {
+    display: flex;
+    gap: 50px;
+    padding-right: 50px;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+.List li {
+    list-style: none;
+    font-size: large;
+    font-weight: 800;
+
+}
+
+.List li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#gallery {
+    padding: 20px;
+    text-align: center;
+}
+
+#gallery h1{
+    color: #ccc;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-item {
+    margin: 10px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+    color: #e7c24d;
+    background-color: #1e0201;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    background-color: #6a0200;
+}
+
+.aboutUs,
+.contactUs,
+.quickLinks {
+    width: 30%;
+    text-align: center;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.quickLinks a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+footer p {
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+footer h1 {
+    margin-bottom: 15px;
+    font-size: large;
+}
+
+footer h3 {
+    margin-bottom: 5px;
+    font-size: medium;
+    font-weight: 100;
+}
